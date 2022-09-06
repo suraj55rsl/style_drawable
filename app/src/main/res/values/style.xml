@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--style for textview tittle-->
+    <style name="tittleStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--style for textview text-->
+    <style name="tittleStyle.item">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <!--style for imagebutton and drawable background-->
+    <style name="style1">
+
+    </style>
+    <!--style for + imageButton-->
+    <style name="style1.style2">
+
+    </style>
+</resources>

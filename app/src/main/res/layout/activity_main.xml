@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/textViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            style="@style/tittleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/textViewTittle">
+
+        </TextView>
+
+        <TextView
+            style="@style/tittleStyle.item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/textViewitem1">
+
+        </TextView>
+
+        <TextView
+            style="@style/tittleStyle.item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/textViewitem2">
+
+        </TextView>
+
+        <TextView
+            style="@style/tittleStyle.item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/textViewitem3">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/wifiImage"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/level_list_drawable"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLayout"
+        tools:layout_editor_absoluteX="0dp">
+
+    </ImageView>
+
+    <LinearLayout
+
+        android:id="@+id/imageButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wifiImage">
+
+        <ImageButton
+            android:id="@+id/plus_image_button"
+            android:layout_width="@dimen/ImageButtonWidth"
+            android:layout_height="@dimen/ImageButtonHeight"
+            android:layout_marginLeft="@dimen/ImageButtonMarginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/plus_background"
+            android:padding="10dp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/minus_image_button"
+            android:layout_width="@dimen/ImageButtonWidth"
+            android:layout_height="@dimen/ImageButtonHeight"
+            android:layout_marginLeft="@dimen/ImageButtonMarginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/minus_background">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/off_image_button"
+            android:layout_width="@dimen/ImageButtonWidth"
+            android:layout_height="@dimen/ImageButtonHeight"
+            android:layout_marginLeft="@dimen/ImageButtonMarginLeft"
+            android:layout_weight="1"
+            android:background="@drawable/off_background"
+            android:padding="@dimen/padding">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_theme"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        app:selectionRequired="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonLayout"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/btn_dark"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="16dp"
+            android:text="Dark"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btn_light"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Light"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_dark"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
