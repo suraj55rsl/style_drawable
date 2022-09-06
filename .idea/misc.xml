@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/debug/res/drawable/shape_drawable.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/add_icon.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/custom_btn.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/custom_imagebtn.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/minus_bacground.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/off_background.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/removea_icon.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/ring_custom_image.xml" value="0.12" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/shape_drawable.xml" value="0.12" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/wifi_root_image.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/wifiof_icon.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/drawable/wifioff_icon.xml" value="0.171" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/layout-land/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/layout-land/main.xml" value="0.15123456790123457" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/style_and_drawable/app/src/main/res/layout/activity_main.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
